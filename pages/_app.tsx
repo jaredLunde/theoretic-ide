@@ -1,8 +1,17 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { Provider as JotaiProvider } from "jotai";
+import type { AppProps } from "next/app";
+import * as React from "react";
+import { Toast } from "@/components/toast";
+import { GlobalStyles } from "@/styles/global";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <JotaiProvider>
+      <GlobalStyles />
+      <Component {...pageProps} />
+      <React.Suspense>{/*<Toast />*/}</React.Suspense>
+    </JotaiProvider>
+  );
 }
 
-export default MyApp
+export default App;

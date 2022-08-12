@@ -11,10 +11,22 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/dash.config": ["dash.config.ts"],
+      "@/routes.config": ["routes.config.ts"],
+      "@/pages/*": ["pages/*"],
+      "@/public/*": ["public/*"],
+      "@/stores/*": ["stores/*"],
+      "@/styles/*": ["styles/*"],
+      "@/types/*": ["types/*"],
+      "@/utils/*": ["utils/*"]
+    },
+    "isolatedModules": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", ".jest/setup.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="51">
+  <testsuite name="`useToastStore()` — _components/toast/index.test.tsx_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:13" time="3.546" tests="10">
+    <testcase classname="useToastStore() should push a toast to the store" name="useToastStore() should push a toast to the store" time="0.014" file="components/toast/index.test.tsx"/>
+    <testcase classname="useToastStore() should set a variant" name="useToastStore() should set a variant" time="0.002" file="components/toast/index.test.tsx"/>
+    <testcase classname="useToastStore() should remove toast from store after ttl" name="useToastStore() should remove toast from store after ttl" time="0.003" file="components/toast/index.test.tsx"/>
+    <testcase classname="useToastStore() should pause and restart toast ttl" name="useToastStore() should pause and restart toast ttl" time="0.003" file="components/toast/index.test.tsx"/>
+    <testcase classname="useToastStore() should remove toast when callback returned is invoked" name="useToastStore() should remove toast when callback returned is invoked" time="0.001" file="components/toast/index.test.tsx"/>
+    <testcase classname="&lt;Toast&gt; should display toast in the ui" name="&lt;Toast&gt; should display toast in the ui" time="0.145" file="components/toast/index.test.tsx"/>
+    <testcase classname="&lt;Toast&gt; should remove toast from the ui after ttl" name="&lt;Toast&gt; should remove toast from the ui after ttl" time="0.01" file="components/toast/index.test.tsx"/>
+    <testcase classname="&lt;Toast&gt; should close toast when close button is pushed" name="&lt;Toast&gt; should close toast when close button is pushed" time="0.081" file="components/toast/index.test.tsx"/>
+    <testcase classname="&lt;Toast&gt; should change role to 'log'" name="&lt;Toast&gt; should change role to 'log'" time="0.02" file="components/toast/index.test.tsx"/>
+    <testcase classname="&lt;Toast&gt; should pause ttl when mouse is over" name="&lt;Toast&gt; should pause ttl when mouse is over" time="0.064" file="components/toast/index.test.tsx"/>
+  </testsuite>
+  <testsuite name="`&lt;Icon&gt;` — _components/icon/icon.test.tsx_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:16" time="1.103" tests="13">
+    <testcase classname="&lt;Icon&gt; should set a 'src'" name="&lt;Icon&gt; should set a 'src'" time="0.058" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'color'" name="&lt;Icon&gt; should set a 'color'" time="0.02" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with numeric value" name="&lt;Icon&gt; should set a 'size' with numeric value" time="0.028" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with numeric array value" name="&lt;Icon&gt; should set a 'size' with numeric array value" time="0.013" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with mixed array value" name="&lt;Icon&gt; should set a 'size' with mixed array value" time="0.013" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with empty height value" name="&lt;Icon&gt; should set a 'size' with empty height value" time="0.014" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with empty width value" name="&lt;Icon&gt; should set a 'size' with empty width value" time="0.01" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with null height value" name="&lt;Icon&gt; should set a 'size' with null height value" time="0.014" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with null width value" name="&lt;Icon&gt; should set a 'size' with null width value" time="0.011" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a 'size' with null values" name="&lt;Icon&gt; should set a 'size' with null values" time="0.014" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set a default 'size'" name="&lt;Icon&gt; should set a default 'size'" time="0.011" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should be hidden without 'aria-label' attribute" name="&lt;Icon&gt; should be hidden without 'aria-label' attribute" time="0.003" file="components/icon/icon.test.tsx"/>
+    <testcase classname="&lt;Icon&gt; should set custom 'role' attribute" name="&lt;Icon&gt; should set custom 'role' attribute" time="0.008" file="components/icon/icon.test.tsx"/>
+  </testsuite>
+  <testsuite name="`&lt;Link&gt;` — _components/link/index.test.tsx_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:17" time="0.84" tests="7">
+    <testcase classname="&lt;Link&gt; should navigate to about page" name="&lt;Link&gt; should navigate to about page" time="0.076" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;Link&gt; should add props to the underlying &lt;a&gt; tag" name="&lt;Link&gt; should add props to the underlying &lt;a&gt; tag" time="0.01" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;NavLink&gt; should navigate to about page" name="&lt;NavLink&gt; should navigate to about page" time="0.02" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;NavLink&gt; should toggle aria-current attribute when active/inactive" name="&lt;NavLink&gt; should toggle aria-current attribute when active/inactive" time="0.028" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;NavLink&gt; should match 'isActive' prop with regex" name="&lt;NavLink&gt; should match 'isActive' prop with regex" time="0.03" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;NavLink&gt; should match 'isActive' prop with callback" name="&lt;NavLink&gt; should match 'isActive' prop with callback" time="0.026" file="components/link/index.test.tsx"/>
+    <testcase classname="&lt;NavLink&gt; should add props to the underlying &lt;a&gt; tag" name="&lt;NavLink&gt; should add props to the underlying &lt;a&gt; tag" time="0.008" file="components/link/index.test.tsx"/>
+  </testsuite>
+  <testsuite name="`&lt;Fieldset&gt;` — _components/fieldset/index.test.tsx_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:18" time="0.77" tests="4">
+    <testcase classname="&lt;Fieldset&gt; should append class name a fieldset" name="&lt;Fieldset&gt; should append class name a fieldset" time="0.066" file="components/fieldset/index.test.tsx"/>
+    <testcase classname="&lt;Legend&gt; should forward aria-* props to visually hidden legend element" name="&lt;Legend&gt; should forward aria-* props to visually hidden legend element" time="0.015" file="components/fieldset/index.test.tsx"/>
+    <testcase classname="&lt;Legend&gt; should forward role prop to visually hidden legend element" name="&lt;Legend&gt; should forward role prop to visually hidden legend element" time="0.006" file="components/fieldset/index.test.tsx"/>
+    <testcase classname="&lt;Legend&gt; should not forward non role/aria-* props to visually hidden legend element" name="&lt;Legend&gt; should not forward non role/aria-* props to visually hidden legend element" time="0.006" file="components/fieldset/index.test.tsx"/>
+  </testsuite>
+  <testsuite name="`persistAtom()` — _stores/atoms.test.tsx_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:19" time="0.517" tests="5">
+    <testcase classname="persistAtom() should set initial value" name="persistAtom() should set initial value" time="0.026" file="stores/atoms.test.tsx"/>
+    <testcase classname="persistAtom() should persist value to localStorage on mount" name="persistAtom() should persist value to localStorage on mount" time="0.001" file="stores/atoms.test.tsx"/>
+    <testcase classname="persistAtom() should persist value to localStorage on set" name="persistAtom() should persist value to localStorage on set" time="0.005" file="stores/atoms.test.tsx"/>
+    <testcase classname="persistAtom() should replace stale versions" name="persistAtom() should replace stale versions" time="0" file="stores/atoms.test.tsx"/>
+    <testcase classname="persistAtom() should not overwrite stored values on mount" name="persistAtom() should not overwrite stored values on mount" time="0.001" file="stores/atoms.test.tsx"/>
+  </testsuite>
+  <testsuite name="`createFluxStore()` — _stores/flux.test.ts_" errors="0" failures="0" skipped="0" timestamp="2021-11-09T06:52:20" time="0.411" tests="12">
+    <testcase classname="createFluxStore() should invoke mutation on dispatch" name="createFluxStore() should invoke mutation on dispatch" time="0.006" file="stores/flux.test.ts"/>
+    <testcase classname="createFluxStore() should be immutable" name="createFluxStore() should be immutable" time="0.002" file="stores/flux.test.ts"/>
+    <testcase classname="createFluxStore() should set state from api" name="createFluxStore() should set state from api" time="0" file="stores/flux.test.ts"/>
+    <testcase classname="createFluxStore() should set state from promise api" name="createFluxStore() should set state from promise api" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should invoke mutation on dispatch" name="createPersistentFluxStore() should invoke mutation on dispatch" time="0.002" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should be immutable" name="createPersistentFluxStore() should be immutable" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should commit items to localStorage" name="createPersistentFluxStore() should commit items to localStorage" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should exclude keys from localStorage" name="createPersistentFluxStore() should exclude keys from localStorage" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should not exclude keys from localStorage if include is defined" name="createPersistentFluxStore() should not exclude keys from localStorage if include is defined" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should not include keys from localStorage" name="createPersistentFluxStore() should not include keys from localStorage" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should persist to localStorage from api setState" name="createPersistentFluxStore() should persist to localStorage from api setState" time="0.001" file="stores/flux.test.ts"/>
+    <testcase classname="createPersistentFluxStore() should clear items in localStorage if versions mismatch and reset with initialState" name="createPersistentFluxStore() should clear items in localStorage if versions mismatch and reset with initialState" time="0.002" file="stores/flux.test.ts"/>
+  </testsuite>
+</testsuites>
